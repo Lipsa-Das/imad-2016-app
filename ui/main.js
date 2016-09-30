@@ -12,6 +12,6 @@ button.onclick = function(){
         }
     }
     };
-    requestopen('GET', 'http://lipsa-das.imad.hasura-app.io/', true );
+    requestopen('GET', 'http://lipsa-das.imad.hasura-app.io/counter', true );
     request.send(null);
 };
