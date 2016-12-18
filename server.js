@@ -17,6 +17,10 @@ app.get('/ui/main.js', function(req, res)
 {
     res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
+app.get('/article-one', function(req, res)
+{
+    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+});
 app.get('/article-two', function(req, res)
 {
     res.send("Article two is erequested and served.");
